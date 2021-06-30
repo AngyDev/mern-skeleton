@@ -101,7 +101,7 @@ const update = (req, res, next) => {
  * @param {Next} next 
  */
 const remove = (req, res, next) => {
-    et user = req.profile;
+    let user = req.profile;
     user.remove((err, deletedUser) => {
         if (err) {
             return res.status(400).json({
