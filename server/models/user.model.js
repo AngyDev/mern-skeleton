@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import crypto from 'crypto';
 
 /**
  * The user schema definition object needed to generate the new Mongoose schema 
